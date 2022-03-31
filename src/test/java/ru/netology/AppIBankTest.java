@@ -3,6 +3,7 @@ package ru.netology;
 import com.github.javafaker.CreditCardType;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Locale;
@@ -10,7 +11,7 @@ import java.util.Locale;
 public class AppIBankTest {
     private static Faker faker;
 
-    @BeforeAll
+    @BeforeEach
     void setUpAll() {
         faker = new Faker(new Locale("ru"));
     }
