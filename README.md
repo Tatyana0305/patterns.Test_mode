@@ -1,1 +1,1 @@
-# CI Demo [![Build status](https://ci.appveyor.com/api/projects/status/g8ar184dmk90pxp0?svg=true)](https://ci.appveyor.com/project/Tatyana0305/selenium)
+# CI Demo [![Build status](https://ci.appveyor.com/api/projects/status/s0f1002duapcl4bd?svg=true)](https://ci.appveyor.com/project/Tatyana0305/patterns-test-mode)
