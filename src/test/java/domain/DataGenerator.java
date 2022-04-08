@@ -50,7 +50,7 @@ public class DataGenerator {
         }
 
         public static RegistrationInfo getUser(String status) {
-            RegistrationInfo user = new RegistrationInfo();
+            RegistrationInfo user = new RegistrationInfo(getRandomLogin(), getRandomPassword(), status);
             return user;
         }
 

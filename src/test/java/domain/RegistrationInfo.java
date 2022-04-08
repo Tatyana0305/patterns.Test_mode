@@ -3,9 +3,11 @@ package domain;
 import lombok.*;
 
 
+@Data
+@AllArgsConstructor
 @NoArgsConstructor
 
-@Data
+
 public class RegistrationInfo {
     private String login;
     private String password;
