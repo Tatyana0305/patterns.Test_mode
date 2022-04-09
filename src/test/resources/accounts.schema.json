@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "login",
+      "password",
+      "status"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "login": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      }
+    }
+  }
+}
