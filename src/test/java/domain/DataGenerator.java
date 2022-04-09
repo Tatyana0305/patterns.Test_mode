@@ -15,9 +15,11 @@ import static io.restassured.RestAssured.given;
 public class DataGenerator {
     private DataGenerator() {
     }
+
     public static class Registration {
         private Registration() {
         }
+
         private static final Faker faker = new Faker(new Locale("en"));
 
         private static final RequestSpecification requestSpec = new RequestSpecBuilder()
